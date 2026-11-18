@@ -1,0 +1,129 @@
+
+body{
+    font-family: graphik, arial, helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 70px;
+}
+
+.box{
+    border: 1px solid lightgray;
+    height: 529px;
+    width: 480px;
+    border-radius: 1.5%;
+}
+
+.bol{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+h2{
+    padding-left: 30px;
+}
+
+.mail{
+    padding-left: 7%;
+    padding-bottom: 16px;
+}
+
+.email{
+    width: 378.6px;
+    height: 63.6px;
+    border-radius: 10px;
+    border: 1px solid lightslategray;
+    padding-left: 17px;
+}
+
+.wacht{
+    padding-left: 7%;
+}
+
+.ww{
+    width: 378.6px;
+    height: 63.6px;
+    border-radius: 10px;
+    border: 1px solid lightslategray;
+    padding-left: 17px;
+}
+
+.vergeten{
+    padding-left: 7%;
+    text-underline-offset: 4px;
+}
+
+.inloggen{
+    padding-left: 7%;
+    padding-top: 5px;
+    outline-color: var(blue);
+    font: 600 .875rem / 1.25rem graphik, arial, helvetica, sans-serif;
+
+}
+
+.button{
+    font-size: 16px;
+    background-color: lab(37.97% 39.83 -78.61);
+    color: white;
+    border: none;
+    padding: 17px;
+    border-radius: 10%;
+}
+
+p{
+    padding-left: 7%;
+    padding-right: 7%;
+    text-underline-offset: 4px;
+}
+
+.h3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type=email] {
+  box-sizing: border-box;
+  border: 1px solid lightslategray;
+  transition: 0.5s;
+  outline: none;
+  width: 400px;
+  height: 63.6px;
+}
+
+input[type=email]:focus {
+  border: 1px solid blue;
+}
+
+input[type=password] {
+  box-sizing: border-box;
+  border: 1px solid lightslategray;
+  transition: 0.5s;
+  outline: none;
+  width: 400px;
+  height: 63.6px;
+}
+
+input[type=password]:focus {
+  border: 1px solid blue; 
+}
+
+input:focus::placeholder{
+    color: blue;
+    font-size: 12px;
+    position: relative;
+    top: -18px;
+}
+
+.view{
+    display: flex;
+    position: absolute;
+    width: 2%;
+    margin-left: 350px;
+    margin-top: -3%;
+}
